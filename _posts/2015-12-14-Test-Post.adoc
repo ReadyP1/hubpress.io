@@ -1,6 +1,6 @@
 = Test Post
 Julian Anderson <techieboy45@gmail.com>
-v1.0, 2015-12-14
+v1.1, 2015-12-14
 
 == First Section: Bob Ross Ipsum
 
@@ -96,6 +96,11 @@ require 'asciidoctor'
 
 puts Asciidoctor.convert_file('sample.adoc', :header_footer => true)
 ----
+
+== Section 3: Rendering of Foreign (e.g., 日本語) Characters
+はじめまして。私はジュリアンです。よろしくおねがいします。
+12月14日です。月曜日です。
+私のしゅみはおんがくとどくしょです。
 
 == Conclusion
 
